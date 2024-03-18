@@ -1,4 +1,7 @@
 
+## I tried to create the JSON format to submit the entries through the api, and iterated through to create each JSON entry for submission.
+## Here's the kicker. I already had liblistenbrainz imported and I just completely forgot about it. So I did a whole bunch of work for no reason.
+
 
 ##### Turn resulting data into ListenBrainz JSON format and submit in batches of 1000 songs
 
@@ -96,7 +99,7 @@ json_string = json.dumps(all_json_objects, indent=2)
 print(json_string)
 ```
 
-Helpful code by lucifer to get the HTTP 400 error I was getting
+## Helpful code by lucifer to get the HTTP 400 error I was getting since there is/was an error with the library that prevented errors from being shown.
 
 ```python
 try:
